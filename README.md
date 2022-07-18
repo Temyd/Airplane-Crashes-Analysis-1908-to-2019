@@ -101,6 +101,8 @@ In Power Query
 
 14. Hour columns was also created, this was extracted from time
 
+15. I created a cause column using the conditional column feature in power bi
+
 16. Having learnt about performance optimization in power bi 
   - I removed columns that added no value to the analysis (Flight, Registration, and cn/in columns)
   - And also created new measures _(this was after loading into power bi)_  (Total fatality on air, Total fatality on ground, Total people on board, Total survivors, Total crash, Grand fatality (ground + air) 
@@ -108,10 +110,16 @@ In Power Query
   <img width="303" alt="dax measure" src="https://user-images.githubusercontent.com/105246702/179434698-c8f6ce46-64e8-4eae-91ef-7cd648487557.png">
   
   - I created a date table also in power bi
+  
 
 17. I checked data types and changed them to their correct type.
 
 After thorough checking and validation, I closed and loaded my dataset into power bi ready for Visualization
+
+# Model
+Having created a Date Table, I had to make sure there was a relationship between it and my aircrash dataset
+
+<img width="554" alt="model" src="https://user-images.githubusercontent.com/105246702/179613852-1db2008f-d896-47f4-95e6-7a2b1923fdd1.png">
 
 # Data Visualization 📊
 They say a picture is worth a thousand words. Once our data was tidy and neat, it was ready for visualization in power bi.
@@ -213,7 +221,9 @@ The DC-3 had many exceptional qualities compared to previous aircraft. It was fa
 
 ### Causes of Airplane Crash from Summary Column
 
-![wordcloud cause](https://user-images.githubusercontent.com/105246702/179455663-619c4fac-25d4-4540-915d-781fda3b7673.png)
+<img width="325" alt="causes" src="https://user-images.githubusercontent.com/105246702/179611768-ea2e30f8-1ca2-4a83-b6a0-b1ade86ea823.png">
+
+Major cause was due to weather condition, bad weather conditions reduces visibility, turbulence is also higher
 
 ### Analysis on Fatalities that occured on the ground
 
@@ -262,7 +272,24 @@ The aircraft suffered a naft pressure bulkhead failure at 23,900ft. The aircraft
 
 ![image](https://user-images.githubusercontent.com/105246702/179379228-86da6ecb-0277-4747-95b5-dc6a45d4bd63.png)
 
-# Findings
+# Findings 🔍
+  - First air crash was in 1908, there was a steady increase in number of crashes till 1972 this can be linked to airplane becoming more popular and the wars fought during those period from 1972 there has been a decrease in the crashes due to better and improved safety measures and advanced technology
+  
+  - Most Crashes occurred December and January which are winter periods, thus the cold weather seems to be a threat to air flights
+  
+  - Aeroflot a commercial airline had the highest number of crashes, followed by US Military airline, this may be as a result of their use in warfare
+  
+  - Douglas DC 3 has the highest number of crashes, this is linked to its widespread use during the World War 2
+  
+  - Countries with highest fatalities are Russia due to rough terrain and weather conditions, USA probably due to their high frequency of flights, and Colombia due to poor flight safety standards or regulations
+
+# Recommendations ✅
+  - Weather is a factor for airplane crash, airlines should make use of the weather forecast in planning their flights
+ 
+  - Airline operators should adhere to the safety rules and ensure proper maintenance of their fleets
+ 
+  - Russia had a lot of plane crashes, Russia due to rough terrain and weather conditions, they should imbibe a high level of safety measure
+
 
 
 
