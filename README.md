@@ -2,18 +2,19 @@
 
 
 # Introduction 📖
-Its being more than 20 days learning the world of Data Analytics in the ongoing #NG30daysoflearning training , in this past days i have learnt a lot about Data Analytics from creating a developers account on microsoft down to visualisation and telling stories with my report. This is a project to **Show my mentors what I can do with what I have learnt**
+It’s being more than 20 days learning the Data Analytics track in the ongoing #NG30daysoflearning training, in these past days I have learnt a lot about Data Analytics from creating a developers account on Microsoft down to visualization and telling stories with my report. This is a project to **Show my mentors what I can do with what I have learnt**
 
 # Problem statement 🧾
 A flight in an airplane is a highly exciting experience. It is flying in the air like a bird. The whole experience is wonderful. With more and more people preferring flying to traveling by trains or buses, there is no surprise that number of plane crashes will never end. They include the military as well as the civilian planes and the accidents do occur all over the six continents.
 To be a witness to an accident is bad, but to be a part of it is greatly horrifying. As a witness a person feels helpless, however as a victim one feels let down by the Almighty and is forced to say good-bye to this world forever or spend the rest of his life completely crippled.
-The odds of death of a person per total no of passengers flown is 1 to 6 million according to the Telegraph News(UK)
+The odds of death of a person per total no of passengers flown is 1 to 6 million according to the Telegraph News (UK)
 
 Objective of this project is to analyze the data set and derive various insights about the aviation accidents from 1908 to 2019
 
 # Data Sourcing 📤
-Two dataset was used
-  - This Dataset was created on Kaggle in September 2016 but the original version was hosted by Open Data by [Socrata](https://opendata.socrata.com/Government/Airplane-Crashes-and-Fatalities-Since-1908/q2te-8cvq) and is (no longer available).  
+The initial dataset given to us was from 1908 to 2009, to further observe the trend of aviation crashes I took a step further in sourcing for dataset that contained data from 2009 till 2019
+  - First Dataset (1908 to 6/8/2009)
+This Dataset was created on Kaggle in September 2016, but the original version was hosted by Open Data by [Socrata](https://opendata.socrata.com/Government/Airplane-Crashes-and-Fatalities-Since-1908/q2te-8cvq) and is (no longer available).  
 The dataset contains data of airplane accidents involving civil, commercial and military transport worldwide from 9/17/1908 till 6/8/2009 
 Data Can be gotten from [here](https://aka.ms/30DLDATGitHubRepo)
   - Second dataset is from 6/29/2009 to 7/30/2019
@@ -25,7 +26,6 @@ The data was dirty and had to be cleaned. Cleaning and Transformation took place
 Most of my data cleaning took place in excel
 
 1.	I loaded both dataset into separate excel workbooks
-
 
 2.	First Dataset contained 5,268 rows and 13 columns from 9/17/1908 to 6/9/2009
 
@@ -82,9 +82,11 @@ The attributes of the dataset are
 12.	I also created 
 
   - Survival column= abroad-fatalities
+  
   <img width="548" alt="f  survivors formular" src="https://user-images.githubusercontent.com/105246702/179433835-56dd8227-ac68-4e56-b1d1-132e02f46e67.png">
 
   - Total fatality column= fatalities + ground
+  
   <img width="670" alt="total fatalities" src="https://user-images.githubusercontent.com/105246702/179433842-0dff5e98-3875-48c8-8a50-0e3c016df51a.png">
   
 13.	Using flash fill function in excel I extracted the countries from the location column
@@ -99,13 +101,13 @@ In Power Query
 
 14. Hour columns was also created, this was extracted from time
 
-15. Year, Month and Weekday column were extracted from the date column
-<img width="630" alt="new column in power query" src="https://user-images.githubusercontent.com/105246702/179434611-0b1fdff9-cfdf-49f4-9142-d2dfb6ffbd9c.png">
-
 16. Having learnt about performance optimization in power bi 
   - I removed columns that added no value to the analysis (Flight, Registration, and cn/in columns)
   - And also created new measures _(this was after loading into power bi)_  (Total fatality on air, Total fatality on ground, Total people on board, Total survivors, Total crash, Grand fatality (ground + air) 
+  
   <img width="303" alt="dax measure" src="https://user-images.githubusercontent.com/105246702/179434698-c8f6ce46-64e8-4eae-91ef-7cd648487557.png">
+  
+  - I created a date table also in power bi
 
 17. I checked data types and changed them to their correct type.
 
@@ -121,24 +123,36 @@ From **9/17/1908 17:18** till **7/30/2019 02:00** there was a total of **5,522cr
 
 Out of the crashes, **3,688** crashes had no survivors, everyone on board died while **1,834** crashes had survivors.
 
+<img width="328" alt="brief over view" src="https://user-images.githubusercontent.com/105246702/179603040-58138f51-8468-45c4-8d1b-2e68591cef52.png">
+
 ### Countries with Highest Fatalities
 
+<img width="250" alt="fatalities by country" src="https://user-images.githubusercontent.com/105246702/179568494-0bd3cdf5-0a9e-4668-a440-b433d7800037.png">
 
 ### Yearly Trend
-
   - Crashes by year
+  
 There was a gradual increase in Plane crashes from 1908 to 1972, 1972 was highest with 104 crashes, trend shows there has been a reduction in plane crashes since then. Futher Analysis shows that improvement in flight saftey has helped no of crashes drop by 91% from 1972 to 2019.
 
+<img width="653" alt="total crashes by year" src="https://user-images.githubusercontent.com/105246702/179582164-efb6b34b-e94f-41f5-bd7c-818235359161.png">
+
   - Fatality in the air
-Year 1972 had the highest fatality with 2,397 fatalities. There was a gradual increase from 1908 till 1972. Year 1972 was said to be the worst year in the aviation industry [💡](https://www.flightsafetyaustralia.com/2017/01/the-year-of-flying-dangerously-1972/). While report says that 1972 is the worst year, report also says that year 2017 was the safest year in history of commercial air travel [💡]()
+  
+Year 1972 had the highest fatality with 2,397 fatalities. There was a gradual increase from 1908 till 1972. Year 1972 was said to be the worst year in the aviation industry [💡](https://www.flightsafetyaustralia.com/2017/01/the-year-of-flying-dangerously-1972/). While report says that 1972 is the worst year, report also says that year 2017 was the safest year in history of commercial air travel
+
+<img width="644" alt="fatalities in air by year" src="https://user-images.githubusercontent.com/105246702/179582292-422b711d-bc18-489c-9649-96b3f01c3ce2.png">
 
 Further dive into year 1972 showed that the Aeroflot airline topped the list of crashes in that year with total of 524 fatalities
+
+<img width="590" alt="fatalities by operator year 1972" src="https://user-images.githubusercontent.com/105246702/179582348-ff1beadc-3382-478b-84cc-2a46ef95c3e9.png">
 
 2 major peaks was also seen in the trend 1985 and 1996 with 2670 and 2386 deaths respectively. From 1996 we can see a drastic reduction in number of fatalities till 2019.
  
   - Fatality on the Ground
+  
 Year 2001 was the deadliest with a total death of 2891 and the incidence is linked to the event of 9/11/2001. The highest in history so far.
 
+<img width="646" alt="fatalities on ground by year" src="https://user-images.githubusercontent.com/105246702/179582764-7dc19933-46cf-4809-a8d9-f4c9e6a51063.png">
 
 Note; While visualizing I noticed, there was a very high spike in 2001 showing 5,641 deaths. Research shows that only about 3000 people were killed, exploring the data further showed that 2,750 was counted twice for ground on 9/11. Thus, I replaced one of the values with 0. 
 
@@ -148,28 +162,36 @@ _Reason why 2,570 was "repeated" twice is because both aircraft crashes occurred
 <img width="943" alt="twin crash" src="https://user-images.githubusercontent.com/105246702/179375062-3c299349-f287-4b96-9692-45409b50fc7e.png">
 <img width="934" alt="replaced with 0" src="https://user-images.githubusercontent.com/105246702/179375066-817b72df-e3ba-40f5-bdb9-55a97381b1c5.png">
 
-  - Total fatality
+  - Grand fatality
+  
 Combining both ground and air fatality 2001 was the worst year with 4289 deaths followed by 1972 with 2967 deaths, then 1985 with 2671 
 
+<img width="657" alt="Grand fatalities by year" src="https://user-images.githubusercontent.com/105246702/179582984-e808e02a-7376-4f7d-983e-b19fdc791b8a.png">
+
   - Trend with Number of People boarding plane and Fatalities
-  Number of people boarding flight has increased over the  years, a report by [The World Bank](https://data.worldbank.org/share/widget?end=2020&indicators=IS.AIR.PSGR&start=1970&view=chart)
-
-  thus comparing the average number of people on board to fatalities shows that fatalities has reduced this can be linked to improvement in flight safety.
-
+  
+  Number of people boarding flight has increased over the  years, a report by [The World Bank](https://data.worldbank.org/share/widget?end=2020&indicators=IS.AIR.PSGR&start=1970&view=chart) thus comparing the average number of people on board to fatalities shows that fatalities has reduced this can be linked to improvement in flight safety.
+  
+  <img width="649" alt="people abroad and fatalities by year" src="https://user-images.githubusercontent.com/105246702/179583051-cdba145a-f14f-49ce-b425-a913c67e5b9a.png">
 
 ### Monthly Trend
 Highest number of crashes was in December with 537 crashes followed by January with 512 crashes, both months fall in the winter period. The winter period is a cold period and there are higher instances of slippery runways thus reduce brake action, reduce visibility due to snow mist and fog, and many more that might be a likely cause of the higher crashes.
 
-Though the weather has its own advantage by giving cool and oxygen rich.
+<img width="611" alt="total crashes by month" src="https://user-images.githubusercontent.com/105246702/179583127-066e2992-dece-4d16-8990-7f35d0fabf61.png">
+
+Though the weather has its own advantage by giving cool and oxygen rich air.
 
 It should also be noted that People tend to travel more December due to festivity around that, thus with more People on board and higher crashes the fatality rate is also higher during this period.
 
-From Auguest until the end of the year the high crash rate increases, Autumn falls in August, most people tend to travel more during this season thus 
+<img width="646" alt="December trend" src="https://user-images.githubusercontent.com/105246702/179583160-6b1383ce-3d53-42c5-a890-bb3744d21f6b.png">
 
 ### Operators
 Aeroflot was the most boarded among the operators, it also accounted for the airline with highest fatalities rate with 7156 fatalities. And most crashes 179 crashes. Followed by Military Us Air Force with 176 crashes and 3717 fatalities, the next which is a commercial airline is Air France with 70 crashes and 1734 fatalities.
 
+<img width="374" alt="Operators" src="https://user-images.githubusercontent.com/105246702/179583345-f30ddc96-fd39-4ab6-997b-5884a14c8d08.png">
+
   - Short History About Aeroflot
+  
 ![image](https://user-images.githubusercontent.com/105246702/179375851-403a5cbf-aceb-4645-a7e5-1d069fdeb563.png)
 
 A Russian airline, founded in 1923, the flag carrier and largest airline of Russia (and formerly the Soviet Union) (formerly the world's largest airline). Making Aeroflot one of the oldest active airlines in the world. Has been in operation for about 99 years.
@@ -177,20 +199,27 @@ Research states that one of the reasons for their high crash was due to the coll
 
 Analysis of thier crashes over time,shows it has reduced over the years. An indication of growth and improvement. Aeroflot: from world's deadliest airline to one of the safest in the sky[💡](telegraph.co.uk/travel/news/Aeroflot-from-worlds-deadliest-airline-to-one-of-the-safest-in-the-sky/)
 
+<img width="583" alt="aeroflot crash trend over the years" src="https://user-images.githubusercontent.com/105246702/179583451-61ea4de4-1c60-498d-8c93-26f83a75452b.png">
 
 ### Type
 Douglas DC3 is the most boarded, has the highst crashes and fatality rate among other types of airplane.
+
+<img width="399" alt="fatalities by type" src="https://user-images.githubusercontent.com/105246702/179583585-5b7304c4-bff8-4663-8691-0696a19464db.png">
+
 Brief history about Douglas tells us that it's a propeller-driven airliner, which had a lasting effect on the airline industry in the 1930s to 1940s and World War II. 
 The DC-3 had many exceptional qualities compared to previous aircraft. It was fast, had a good range, was more reliable, and carried passengers in greater comfort. Before the war, it pioneered many air travel routes. It was able to cross the continental US from New York to Los Angeles in 18 hours, with only three stops. It is one of the first airliners that could profitably carry only passengers without relying on mail subsidies. Following the war, the airliner market was flooded with surplus transport aircraft, and the DC-3 was no longer competitive due to its size and speed.
 
+<img width="583" alt="douglas dc 3" src="https://user-images.githubusercontent.com/105246702/179583655-5624f1b0-fea8-4773-9c11-299a46055865.png">
+
 ### Causes of Airplane Crash from Summary Column
+
+![wordcloud cause](https://user-images.githubusercontent.com/105246702/179455663-619c4fac-25d4-4540-915d-781fda3b7673.png)
 
 ### Analysis on Fatalities that occured on the ground
 
 The year 2001, month September has the highest ground death. September 11 to be precise was the worst period of ground death ever seen there was a total of 4 crashes that day 
-<img width="959" alt="911 death" src="https://user-images.githubusercontent.com/105246702/179379551-7a77552d-aaf4-43fe-89fc-d657e07ae0cc.png">
 
-9/11
+<img width="558" alt="9 11 story" src="https://user-images.githubusercontent.com/105246702/179583870-5a4982a6-56e1-4512-8367-506894bb5ec9.png">
 
 On September 11, 2001—a clear, sunny, late summer day—al Qaeda terrorists aboard hijacked passenger planes and carried out coordinated suicide attacks against the World Trade Center in New York City and the Pentagon in Washington, D.C., killing everyone on board the planes and nearly 3,000 people on the ground. A fourth plane crashed into a field near Shanksville, Pennsylvania, killing all on board, after passengers and crew attempted to wrest control from the hijackers.
 
@@ -200,8 +229,9 @@ Till this day a memorial is held every 9th of September at The National Septembe
 
 Majority of the death occurred in New York City, New York.
 
-
 Operator ‘American Airlines’ and ‘UnitedAir Lines’ were used in the attack
+
+<img width="529" alt="more on 9 11" src="https://user-images.githubusercontent.com/105246702/179583994-c48a8f98-a319-49df-876c-50ecdc4de6fd.png">
 
   - This incidence is followed by Year 1996, A ground fatality that happened in Africa.
 
@@ -215,16 +245,16 @@ Operator ‘American Airlines’ and ‘UnitedAir Lines’ were used in the atta
 
 Tenerife Canarlyislands has max fatality with 761.
 
+<img width="339" alt="fatalities in air by location" src="https://user-images.githubusercontent.com/105246702/179589495-c318d0fe-e89f-4825-af17-b4116214fb31.png">
+
 There were 4 crashes in the area, with the highest occurring March 27,1977 out of 644 people on board there was a casualty of 583
 
-<img width="960" alt="tene" src="https://user-images.githubusercontent.com/105246702/179376385-f1449d7e-57c1-4ab0-a8f7-8f8d423ed396.png">
+<img width="583" alt="tenerife" src="https://user-images.githubusercontent.com/105246702/179599369-5c16e011-55b5-428b-80c2-023ad4106852.png">
 
 The Tenerife airport disaster occurred on 27 March 1977, when two Boeing 747 passenger jets collided on the runway at Los Rodeos Airport (now Tenerife North Airport) on the Spanish island of Tenerife. The collision occurred when KLM Flight 4805 initiated its takeoff run while Pan Am Flight 1736 was still on the runway. The impact and resulting fire killed everyone on board KLM 4805 and most of the occupants of Pan Am 1736, with only 61 survivors in the front section of the aircraft. Resulting in 583 fatalities, the disaster is the deadliest accident in aviation history.
 The Pan Am aircraft was named Clipper Victor. The KLM aircraft was named Rhine River.
 
 ![image](https://user-images.githubusercontent.com/105246702/179378378-2dd2217d-8756-41f9-bdcf-d3256b17172c.png)
-
-
 
 Followed by Mt.Osutaka,nearUenoVillage,Japan with 520 fatalities
 
@@ -232,21 +262,7 @@ The aircraft suffered a naft pressure bulkhead failure at 23,900ft. The aircraft
 
 ![image](https://user-images.githubusercontent.com/105246702/179379228-86da6ecb-0277-4747-95b5-dc6a45d4bd63.png)
 
-### Likely Causes using Word Cloud
-
-![wordcloud cause](https://user-images.githubusercontent.com/105246702/179455663-619c4fac-25d4-4540-915d-781fda3b7673.png)
-
-
-
 # Findings
-  - First aircrash was in 1908,there was a steady increase in number of crashes till 1972 this can be linked to airplane becoming more popular and also the wars fought in the 70's from 1972 there has been a decrease in the crashes due to better and improved saftey measures and advanced technology
-  - Most Crashes occured December and January which are winter periods, thus the cold weather seems to be a threat to air flights
-  - Aeroflot a commercial airline had the highest number of crashes, followed by US Military airline, this may be as a result of their use in warfare
-  - Douglas DC 3 has the highest number of crashes, this is linked to its widespread use during the world war 2
-  - Countries with highest fatalities are USA probably due to their high frequency of flights, Russia due to rough terrain and weather conditions and Colombia due to poor fligth safety standards or regulations
-  - Looking at trend of plane crashes since 1908, the rate has been decreasing since 1970. Fatalities has also been decreasing as well since 1970,when compared to the amount of passengers that has been travelling since 1970, there is a negative correlation between them. As passengers keep increasing there has been a decrease in fatalities and crashes
-  
-  
 
 
 
