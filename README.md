@@ -79,6 +79,10 @@ Having created a Date Table, I had to make sure there was a relationship between
 # Data Visualization 📊
 They say a picture is worth a thousand words. Once our data was tidy and neat, it was ready for visualization in power bi.
 
+<img width="291" alt="dashboard" src="https://user-images.githubusercontent.com/105246702/179852171-0833c5de-9321-42c4-bc3b-045261cea100.png">
+
+[Interact With report here]()
+
 # Analysis 📈
 ### Brief Summary
 
