@@ -37,7 +37,7 @@ From **9/17/1908 17:18** till **7/30/2019 02:00** there was a total of **5,522cr
 
 Out of the crashes, **3,688** crashes had no survivors, everyone on board died while **1,834** crashes had survivors.
 
-<img width="328" alt="brief over view" src="https://user-images.githubusercontent.com/105246702/179603040-58138f51-8468-45c4-8d1b-2e68591cef52.png">
+<img width="493" alt="brief over view" src="https://user-images.githubusercontent.com/105246702/179753425-6a6901de-0652-444f-88e8-c522d26a596b.png">
 
 ### Countries with Highest Fatalities
 
@@ -73,8 +73,6 @@ Note; While visualizing I noticed, there was a very high spike in 2001 showing 5
 _Reason why 2,570 was "repeated" twice is because both aircraft crashes occurred in the same location, World Trade Center, and so you can't really separate the fatalities on the ground that were caused specifically by each aircraft_[💡BolajiO](https://twitter.com/BolajiO_?s=20&t=5EGoUbGNFFq4VvHi1VVQPQ)
 
 <img width="562" alt="wrong 2001" src="https://user-images.githubusercontent.com/105246702/179375036-80692be8-23c1-4d37-9f0e-07b4cc734d37.png">
-<img width="943" alt="twin crash" src="https://user-images.githubusercontent.com/105246702/179375062-3c299349-f287-4b96-9692-45409b50fc7e.png">
-<img width="934" alt="replaced with 0" src="https://user-images.githubusercontent.com/105246702/179375066-817b72df-e3ba-40f5-bdb9-55a97381b1c5.png">
 
   - Grand fatality
   
