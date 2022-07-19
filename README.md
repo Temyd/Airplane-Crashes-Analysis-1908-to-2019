@@ -1,5 +1,5 @@
 # Airplane-Crashes-Analysis-1908-to-2019 ✈️
-
+<img width="505" alt="Intro" src="https://user-images.githubusercontent.com/105246702/179857478-660f5a8b-7d9c-45e6-8724-c3fab1f3b11b.png">
 
 # Introduction 📖
 It’s being more than 20 days learning the Data Analytics track in the ongoing #NG30daysoflearning, in these past days, I have learnt a lot about Data Analytics from creating a developer's account on Microsoft down to visualization and telling stories with my report. This is a project to **Show my mentors what I can do with what I have learnt**.
@@ -39,17 +39,25 @@ The data was dirty and had to be cleaned. Cleaning and Transformation took place
   
   - Second dataset contained 254 rows and 13 columns from 6/29/2009 to 7/30/2019. I checked to make sure they had the same columns and datatypes. 
   
+  <img width="596" alt="2 separate workbooks" src="https://user-images.githubusercontent.com/105246702/179857720-6e5e0704-41c2-4dca-9204-0890947f38c8.png">
+
   - Merging both datasets give a total of 5522 rows and 13 columns
+  
+ <img width="732" alt="merged" src="https://user-images.githubusercontent.com/105246702/179857973-a5de1231-3fc6-4da2-b2fc-46b5933f393b.png">
 
   - Missing values which were replaced with nil, I removed and replaced some wrong characters that was in the dataset using the find and replace function (Ctrl H)
   
+  <img width="791" alt="find and replace" src="https://user-images.githubusercontent.com/105246702/179857919-022fac9b-98dd-4302-9f0a-f51be5e31cd2.png">
+
   - New Columns were created
-1. ‘WERE THERE SURVIVORS FROM THE CRASH’ I am interested in knowing the total number of crash that all abroad died, and the ones that had survivors. I used the if fxn in excel =IF([@Aboard]=[@Fatalities], "No survivor", "There are survivors") 
-2. Total number of crashes that had survivors =COUNTIF(J:J,"There are survivors")
-3. Total no of crashes without survivors =COUNTIF(J:J, "No Survivor")
+1. ‘Crashes with or without Survivors’ I am interested in knowing the total number of crash that all abroad died, and the ones that had survivors. I used the if fxn in excel =IF([@Aboard]=[@Fatalities], "No survivor", "There are survivors") 
+2. Total that had survivors =COUNTIF(J:J,"There are survivors")
+3. Total crashes without survivors =COUNTIF(J:J, "No Survivor")
 4. Survival column= abroad-fatalities
 5. Total fatality column= fatalities + ground
 6. Countries was extracted from the location column
+
+<img width="695" alt="new column in excel" src="https://user-images.githubusercontent.com/105246702/179858512-aa5eaff7-aeec-406f-87bc-a081cf6f2ef0.png">
 
   - After all, done, I then saved, and it was ready to be loaded into Power bi
   
@@ -59,17 +67,39 @@ The data was dirty and had to be cleaned. Cleaning and Transformation took place
   
   - Causes of crash column using the conditional column feature in power bi
   
+  <img width="673" alt="new column in power query" src="https://user-images.githubusercontent.com/105246702/179858711-d9ea0c69-b0b8-4b68-b3f4-f07ad4ce7f21.png">
+
   - Having learnt about performance optimization in power bi 
   
   1. I removed columns that added no value to the analysis (Flight, Registration, and cn/in columns)
   
-  2.  And also created new measures _(this was after loading into power bi)_  (Total fatality on air, Total fatality on ground, Total people on board, Total survivors, Total crash, Grand fatality (ground + air) 
-    
-  - I created a date table also in power bi
+  2. Created new measures _(this was after loading into power bi)_  (Total fatality on air, Total fatality on ground, Total people on board, Total survivors, Total crash, Grand fatality (ground + air) 
+   
+  - I created a date table in power bi
   
+  <img width="233" alt="dax measure" src="https://user-images.githubusercontent.com/105246702/179859533-70ffb4d4-37fd-4009-bd8a-f97c73f2d48b.png">
+
   - I checked data types and changed them to their correct type.
 
   - After thorough checking and validation, I closed and loaded my dataset into power bi ready for Visualization
+  
+ # Attributes of the Data
+ It's important to understand what each attribute means.
+ 
+  - Date: Date of accident
+  - Time: Local time in 24hr
+  - Location: Location of the accident
+  - Operator: Airline/operator of the aircraft
+  - Flight: flight no assigned by the aircraft operator
+  - Route: complete/ partial route flown prior to the accident
+  - Type: aircraft type
+  - Registration: ICAO registration of the aircraft
+  - Cn/in: construction or serial number/ line or fuselage number
+  - Abroad: total abroad(passengers/crew)
+  - Fatalities: Total fatalities abroad (passengers/crew)
+  - Ground: total killed on ground
+  - Summary: brief description of the accident and the cause if known
+
 
 # Model
 Having created a Date Table, I had to make sure there was a relationship between it and my aircrash dataset
@@ -223,11 +253,12 @@ The Pan Am aircraft was named Clipper Victor. The KLM aircraft was named Rhine R
 
 ![image](https://user-images.githubusercontent.com/105246702/179378378-2dd2217d-8756-41f9-bdcf-d3256b17172c.png)
 
-  - Followed by Mt.Osutaka,nearUenoVillage,Japan with 520 fatalities
+  - Followed by Mt.Osutaka,nearUenoVillage,Japan with 520 fatalities that occurred August 12, 1985
 
-The aircraft suffered a naft pressure bulkhead failure at 23,900ft. The aircraft had severe control difficulties with loss of all controls and eventually after 40 minutes, collided with a mountain. This was due to Improper repair of the bulkhead while being supervised by Boeing engineers after a tail strike in 1978. It’s the **worst single plane disaster** in aviation history. [Kyu Sakamoto](https://www.bing.com/ck/a?!&&p=3f5d361e743b908e2a456dc694165c81ea9e1e14567007511929e0b458459756JmltdHM9MTY1ODAxNzk3OSZpZ3VpZD00Njc3MDU4Yy1jOWFkLTRmYTItOGY0ZS00Yjc3ZmJlZTM4YzEmaW5zaWQ9NTg2NQ&ptn=3&fclid=01fc51ac-0568-11ed-8d21-03c3925136b2&u=a1aHR0cDovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9LeXVfU2FrYW1vdG8&ntb=1), 43, famous for his Japanese song ['Sukiyaki'](https://www.bing.com/ck/a?!&&p=c0af3f88b42c5ae0c53915cb427167d2011281a4300713bf136a02eadc3d3fdeJmltdHM9MTY1ODAxNzk3OSZpZ3VpZD00Njc3MDU4Yy1jOWFkLTRmYTItOGY0ZS00Yjc3ZmJlZTM4YzEmaW5zaWQ9NTI2NQ&ptn=3&fclid=01fb3158-0568-11ed-b45f-ee56e6fc2f90&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1FVFhfRUpnT1Z3OA&ntb=1) was killed in the accident. 
+The aircraft suffered a naft pressure bulkhead failure at 23,900ft. The aircraft had severe control difficulties with loss of all controls and eventually after 40 minutes, collided with a mountain. This was due to Improper repair of the bulkhead while being supervised by Boeing engineers after a tail strike in 1978. [Kyu Sakamoto](https://www.bing.com/ck/a?!&&p=3f5d361e743b908e2a456dc694165c81ea9e1e14567007511929e0b458459756JmltdHM9MTY1ODAxNzk3OSZpZ3VpZD00Njc3MDU4Yy1jOWFkLTRmYTItOGY0ZS00Yjc3ZmJlZTM4YzEmaW5zaWQ9NTg2NQ&ptn=3&fclid=01fc51ac-0568-11ed-8d21-03c3925136b2&u=a1aHR0cDovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9LeXVfU2FrYW1vdG8&ntb=1), 43, famous for his Japanese song ['Sukiyaki'](https://www.bing.com/ck/a?!&&p=c0af3f88b42c5ae0c53915cb427167d2011281a4300713bf136a02eadc3d3fdeJmltdHM9MTY1ODAxNzk3OSZpZ3VpZD00Njc3MDU4Yy1jOWFkLTRmYTItOGY0ZS00Yjc3ZmJlZTM4YzEmaW5zaWQ9NTI2NQ&ptn=3&fclid=01fb3158-0568-11ed-b45f-ee56e6fc2f90&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1FVFhfRUpnT1Z3OA&ntb=1) was killed in the accident. 
+The aircraft, was carrying 524 people. All 15 crew members and 505 of the 509 passengers died in the accident. Some of the passengers survived the initial crash but died of their injuries hours later while awaiting rescue. Surpassing the fatalities of All Nippon Airways Flight 58, which crashed 14 years earlier with 162 fatalities, it is the **deadliest single-aircraft accident both in Japan and global aviation history**.
 
-![image](https://user-images.githubusercontent.com/105246702/179379228-86da6ecb-0277-4747-95b5-dc6a45d4bd63.png)
+![image](https://user-images.githubusercontent.com/105246702/179860727-c315187d-585e-4899-b2ba-13d14025d672.png)
 
 # Findings 🔍
   - First air crash was in 1908, there was a steady increase in number of crashes till 1972 this can be linked to airplane becoming more popular and the wars fought during those period from 1972 there has been a decrease in the crashes due to better and improved safety measures and advanced technology
@@ -238,14 +269,14 @@ The aircraft suffered a naft pressure bulkhead failure at 23,900ft. The aircraft
   
   - Douglas DC 3 has the highest number of crashes, this is linked to its widespread use during the World War 2
   
-  - Countries with highest fatalities are Russia due to rough terrain and weather conditions, USA probably due to their high frequency of flights, and Colombia due to poor flight safety standards or regulations
+  - Countries with highest fatalities are Russia due to rough terrain and weather conditions, USA probably due to their high frequency of flights, and Colombia.
 
 # Recommendations ✅
   - Weather is a factor for airplane crash, airlines should make use of the weather forecast in planning their flights
  
   - Airline operators should adhere to the safety rules and ensure proper maintenance of their fleets
  
-  - Russia had a lot of plane crashes, Russia due to rough terrain and weather conditions, they should imbibe a high level of safety measure
+  - Russia had a lot of plane crashes,probably due to rough terrain and weather conditions, they should imbibe a high level of safety measure
 
 
 
