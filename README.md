@@ -33,7 +33,7 @@ They say a picture is worth a thousand words. Once our data was tidy and neat, i
 # Analysis 📈
 ### Brief Summary
 
-From **9/17/1908 17:18** till **7/30/2019 02:00** there was a total of **5,522crashes** with **153,840** people on board, we had **112,335** fatalities with **41,626** survivors. There were also fatalities on the ground **5,857** giving us a total of **118,077** fatalities both in the air and on ground.
+From **9/17/1908 17:18** till **7/30/2019 02:00** there was a total of **5,522crashes** with **153,840** people on board, we had **112,335** fatalities with **41,626** survivors, thus a fatality rate of **73.02%**. There were also fatalities on the ground **5,857** giving us a total of **118,077** fatalities both in the air and on ground.
 
 Out of the crashes, **3,688** crashes had no survivors, everyone on board died while **1,834** crashes had survivors.
 
