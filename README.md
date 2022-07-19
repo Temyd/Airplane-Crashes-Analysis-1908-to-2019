@@ -131,7 +131,7 @@ Russia tops the list.This can be linked to the Aeroflot airline which is a russi
 ### Yearly Trend
   - Crashes by year
   
-There was a gradual increase in Plane crashes from 1908 to 1972, 1972 was highest with 104 crashes, trend shows there has been a reduction in plane crashes since then. Futher Analysis shows that improvement in flight saftey has helped no of crashes drop by 91% from 1972 to 2019.
+There was a gradual increase in Plane crashes from 1908 to 1972, 1972 was highest with 104 crashes, trend shows there has been a reduction in plane crashes since then. Futher Analysis shows that improvement in flight saftey has reduced rate of crash by 91% from 1972 to 2019.
 
 <img width="527" alt="total crashes by year" src="https://user-images.githubusercontent.com/105246702/179850362-670519d1-5916-48d1-8ce9-47f06aca4f6a.png">
 
@@ -154,6 +154,8 @@ Year 2001 was the deadliest with a total death of 2891 and the incidence is link
 <img width="509" alt="fatalities on ground by year" src="https://user-images.githubusercontent.com/105246702/179850465-dca4ce13-511a-4dcd-a5f7-e266fb57e40c.png">
 
 Note; While visualizing I noticed, there was a very high spike in 2001 showing 5,641 deaths. Research shows that only about 3000 people were killed, exploring the data further showed that 2,750 was counted twice for ground on 9/11. Thus, I replaced one of the values with 0. 
+
+<img width="562" alt="wrong 2001" src="https://user-images.githubusercontent.com/105246702/179862104-6e1ec42c-ce6c-4ade-9431-b17ee6ddff21.png">
 
 _Reason why 2,570 was "repeated" twice is because both aircraft crashes occurred in the same location, World Trade Center, and so you can't really separate the fatalities on the ground that were caused specifically by each aircraft_[💡BolajiO](https://twitter.com/BolajiO_?s=20&t=5EGoUbGNFFq4VvHi1VVQPQ)
 
