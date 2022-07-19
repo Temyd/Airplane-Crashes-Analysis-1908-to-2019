@@ -153,7 +153,7 @@ Year 2001 was the deadliest with a total death of 2891 and the incidence is link
 
 <img width="509" alt="fatalities on ground by year" src="https://user-images.githubusercontent.com/105246702/179850465-dca4ce13-511a-4dcd-a5f7-e266fb57e40c.png">
 
-Note; While visualizing I noticed, there was a very high spike in 2001 showing 5,641 deaths. Research shows that only about 3000 people were killed, exploring the data further showed that 2,750 was counted twice for ground on 9/11. Thus, I replaced one of the values with 0. 
+Note; While visualizing I noticed, there was a very high spike in 2001 showing 5,641 deaths. Research shows that only about 3,000 people were killed, exploring the data further showed that 2,750 was counted twice for ground on 9/11. Thus, I replaced one of the values with 0. 
 
 <img width="562" alt="wrong 2001" src="https://user-images.githubusercontent.com/105246702/179862104-6e1ec42c-ce6c-4ade-9431-b17ee6ddff21.png">
 
@@ -163,13 +163,13 @@ _Reason why 2,570 was "repeated" twice is because both aircraft crashes occurred
 
   - Grand fatality
   
-Combining both ground and air fatality 2001 was the worst year with 4289 deaths followed by 1972 with 2967 deaths, then 1985 with 2671 
+Combining both ground and air fatality, 2001 was the worst year with 4,289 deaths followed by 1972 with 2,967 deaths, then 1985 with 2671 
 
 <img width="657" alt="Grand fatalities by year" src="https://user-images.githubusercontent.com/105246702/179582984-e808e02a-7376-4f7d-983e-b19fdc791b8a.png">
 
   - Trend with Number of People boarding plane and Fatalities
   
-  Number of people boarding flight has increased over the  years, a report by [The World Bank](https://data.worldbank.org/share/widget?end=2020&indicators=IS.AIR.PSGR&start=1970&view=chart) thus comparing the average number of people on board to fatalities shows that fatalities has reduced this can be linked to improvement in flight safety.
+  Number of people boarding flight has increased over the  years, a report by [The World Bank](https://data.worldbank.org/share/widget?end=2020&indicators=IS.AIR.PSGR&start=1970&view=chart). Thus comparing the average number of people on board to fatalities shows that fatality rate has reduced over the years. This can be linked to improvement in flight safety.
   
   <img width="649" alt="people abroad and fatalities by year" src="https://user-images.githubusercontent.com/105246702/179583051-cdba145a-f14f-49ce-b425-a913c67e5b9a.png">
 
@@ -185,7 +185,7 @@ It should also be noted that People tend to travel more December due to festivit
 <img width="654" alt="December trend" src="https://user-images.githubusercontent.com/105246702/179843342-411c6413-3d8b-4fb2-a714-8b3cf937242f.png">
 
 ### Operators
-Aeroflot was the most boarded among the operators, it also accounted for the airline with highest fatalities rate with 7156 fatalities. And most crashes 179 crashes. Followed by Military Us Air Force with 176 crashes and 3717 fatalities, the next which is a commercial airline is Air France with 70 crashes and 1734 fatalities.
+Aeroflot was the most boarded among the operators, it also accounted for the airline with highest fatalities rate with 7,156 fatalities. And most crashes 179 crashes. Followed by Military Us Air Force with 176 crashes and 3,717 fatalities, the next which is a commercial airline is Air France with 70 crashes and 1,734 fatalities.
 
 <img width="374" alt="Operators" src="https://user-images.githubusercontent.com/105246702/179583345-f30ddc96-fd39-4ab6-997b-5884a14c8d08.png">
 
@@ -201,7 +201,7 @@ Analysis of thier crashes over time,shows it has reduced over the years. An indi
 <img width="583" alt="aeroflot crash trend over the years" src="https://user-images.githubusercontent.com/105246702/179583451-61ea4de4-1c60-498d-8c93-26f83a75452b.png">
 
 ### Type
-Douglas DC3 is the most boarded, has the highst crashes and fatality rate among other types of airplane.
+Douglas DC3 is the most boarded, has the highest crashes and fatality rate among other types of airplane.
 
 <img width="399" alt="fatalities by type" src="https://user-images.githubusercontent.com/105246702/179583585-5b7304c4-bff8-4663-8691-0696a19464db.png">
 
