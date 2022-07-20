@@ -111,7 +111,7 @@ They say a picture is worth a thousand words. Once our data was tidy and neat, i
 
 <img width="291" alt="dashboard" src="https://user-images.githubusercontent.com/105246702/179852171-0833c5de-9321-42c4-bc3b-045261cea100.png">
 
-[Interact With report here]()
+[Interact With report here](https://app.powerbi.com/view?r=eyJrIjoiZGVkNzk2YTctYmQwNC00MDYyLWJmMGYtMWJhZmU2YmMwODcxIiwidCI6IjBjZmU3YmI2LTZhMzUtNDM4OS1hODQ4LTU1ZTdjZjZlN2NmMSJ9)
 
 # Analysis 📈
 ### Brief Summary
@@ -214,7 +214,7 @@ The DC-3 had many exceptional qualities compared to previous aircraft. It was fa
 
 <img width="325" alt="causes" src="https://user-images.githubusercontent.com/105246702/179611768-ea2e30f8-1ca2-4a83-b6a0-b1ade86ea823.png">
 
-Major cause was due to weather condition, bad weather conditions reduces visibility, turbulence is also higher
+Major cause was due to weather condition, Heavy rainstorms, fog and snow can make it more difficult for airplanes to maneuver and can lead to deadly accidents. Visibility issues, high winds and skidding during takeoff and landing are the most dangerous weather-related threats to aircraft.
 
 ### Analysis on Fatalities that occured on the ground
 
