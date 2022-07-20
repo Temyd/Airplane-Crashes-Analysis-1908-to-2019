@@ -1,8 +1,8 @@
-# Airplane-Crashes-Analysis-1908-to-2019 ✈️
+# Capstone Project: Airplane-Crashes-Analysis-1908-to-2019 ✈️
 <img width="505" alt="Intro" src="https://user-images.githubusercontent.com/105246702/179857478-660f5a8b-7d9c-45e6-8724-c3fab1f3b11b.png">
 
 # Introduction 📖
-It’s being more than 20 days learning the Data Analytics track in the ongoing #NG30daysoflearning, in these past days, I have learnt a lot about Data Analytics from creating a developer's account on Microsoft down to visualization and telling stories with my report. This is a project to **Show my mentors what I can do with what I have learnt**.
+It’s being more than 20 days learning the Data Analytics in the ongoing [#NG30daysoflearning](https://twitter.com/TheOyinbooke/status/1540103138568556544?s=20&t=czg8tAAOx-n4yht-FHB1tw), in these past days, I have learnt a lot about Data Analytics from creating a developer's account on Microsoft down to visualization and telling stories with my report. This is a project to **Show my mentors what I can do with what I have learnt**.
 
 # Background Study
 The first and the second airplane crashes occurred in France and America in 1785 and 1908 respectively. While the former led to the death of the two occupants, the latter resulted into one mortality and one morbidity. The incidence of the airplane crashes has been on the increase since then.
@@ -111,7 +111,7 @@ They say a picture is worth a thousand words. Once our data was tidy and neat, i
 
 <img width="291" alt="dashboard" src="https://user-images.githubusercontent.com/105246702/179852171-0833c5de-9321-42c4-bc3b-045261cea100.png">
 
-[Interact With report here](https://app.powerbi.com/view?r=eyJrIjoiZGVkNzk2YTctYmQwNC00MDYyLWJmMGYtMWJhZmU2YmMwODcxIiwidCI6IjBjZmU3YmI2LTZhMzUtNDM4OS1hODQ4LTU1ZTdjZjZlN2NmMSJ9)
+[Interact With report here](https://app.powerbi.com/view?r=eyJrIjoiZGVkNzk2YTctYmQwNC00MDYyLWJmMGYtMWJhZmU2YmMwODcxIiwidCI6IjBjZmU3YmI2LTZhMzUtNDM4OS1hODQ4LTU1ZTdjZjZlN2NmMSJ9&pageName=ReportSection04d5b904be1eb0969fdd)
 
 # Analysis 📈
 ### Brief Summary
