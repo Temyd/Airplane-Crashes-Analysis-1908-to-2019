@@ -139,7 +139,7 @@ There was a gradual increase in Plane crashes from 1908 to 1972, 1972 was highes
   
 Year 1972 had the highest fatality with 2,397 fatalities. There was a gradual increase from 1908 till 1972. Year 1972 was said to be the worst year in the aviation industry [💡](https://www.flightsafetyaustralia.com/2017/01/the-year-of-flying-dangerously-1972/). While report says that 1972 is the worst year, report also says that year 2017 was the safest year in history of commercial air travel
 
-<img width="529" alt="fatalities in air by year" src="https://user-images.githubusercontent.com/105246702/179850419-ae1a37c2-7970-450b-82ab-1a5d42248221.png">
+<img width="648" alt="fatalities in air by year" src="https://user-images.githubusercontent.com/105246702/179870393-831e4b6c-9fbc-44a0-924b-1e4d0d91b825.png">
 
 Further dive into year 1972 showed that the Aeroflot airline topped the list of crashes in that year with total of 524 fatalities
 
@@ -163,9 +163,9 @@ _Reason why 2,570 was "repeated" twice is because both aircraft crashes occurred
 
   - Grand fatality
   
-Combining both ground and air fatality, 2001 was the worst year with 4,289 deaths followed by 1972 with 2,967 deaths, then 1985 with 2671 
+Combining both ground and air fatality, to give us an insight of the total fatalities that occurred for each year. 2001 was the worst year with 4,289 deaths followed by 1972 with 2,967 deaths, then 1985 with 2,671.
 
-<img width="657" alt="Grand fatalities by year" src="https://user-images.githubusercontent.com/105246702/179582984-e808e02a-7376-4f7d-983e-b19fdc791b8a.png">
+<img width="637" alt="Grand fatalities by year" src="https://user-images.githubusercontent.com/105246702/179870519-20807f79-2cf3-4d2f-b055-3148bece5140.png">
 
   - Trend with Number of People boarding plane and Fatalities
   
