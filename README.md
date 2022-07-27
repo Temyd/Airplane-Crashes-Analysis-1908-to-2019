@@ -21,7 +21,7 @@ one feels let down by the Almighty and is forced to say good-bye to this world f
   Hence, the objective of this project is to analyze the data sets on the subject matter and derive various insights about the aviation accidents from 1908 to 2019.
 
 # Data Sourcing 📤
-The initial dataset given to us was from 1908 to 2009, to further observe the trend of aviation crashes I took a step further in sourcing for dataset that contained data from 2009 till 2019
+The initial dataset given to us was from 1908 to 2009, to further observe the trend of aviation crashes in recent times, I took a step further in sourcing for dataset that contained data from 2009 till 2019
   - First Dataset (1908 to 6/8/2009)
 This Dataset was created on Kaggle in September 2016, but the original version was hosted by Open Data by [Socrata](https://opendata.socrata.com/Government/Airplane-Crashes-and-Fatalities-Since-1908/q2te-8cvq) and is (no longer available).  
 The dataset contains data of airplane accidents involving civil, commercial and military transport worldwide from 9/17/1908 till 6/8/2009 
