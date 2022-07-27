@@ -109,7 +109,7 @@ Having created a Date Table, I had to make sure there was a relationship between
 # Data Visualization 📊
 They say a picture is worth a thousand words. Once our data was tidy and neat, it was ready for visualization in power bi.
 
-<img width="291" alt="dashboard" src="https://user-images.githubusercontent.com/105246702/179852171-0833c5de-9321-42c4-bc3b-045261cea100.png">
+<img width="263" alt="dashboard" src="https://user-images.githubusercontent.com/105246702/181175066-98a5bdd7-6b8a-48d5-b838-c06b3c2ef339.png">
 
 [Interact With report here](https://app.powerbi.com/view?r=eyJrIjoiZGVkNzk2YTctYmQwNC00MDYyLWJmMGYtMWJhZmU2YmMwODcxIiwidCI6IjBjZmU3YmI2LTZhMzUtNDM4OS1hODQ4LTU1ZTdjZjZlN2NmMSJ9&pageName=ReportSection04d5b904be1eb0969fdd)
 
