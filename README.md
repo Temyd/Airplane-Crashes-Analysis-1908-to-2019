@@ -55,7 +55,7 @@ The data was dirty and had to be cleaned. Cleaning and Transformation took place
 3. Total crashes without survivors =COUNTIF(J:J, "No Survivor")
 4. Survival column= abroad-fatalities
 5. Total fatality column= fatalities + ground
-6. Countries was extracted from the location column
+6. Countries was extracted from the location column using flash fill
 
 <img width="695" alt="new column in excel" src="https://user-images.githubusercontent.com/105246702/179858512-aa5eaff7-aeec-406f-87bc-a081cf6f2ef0.png">
 
